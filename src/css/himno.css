@@ -1,0 +1,35 @@
+body {
+    /* background-color: rgb(61, 76, 97); */
+    background-image: url(/public/img/adobestock-266299444-1.jpeg);
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+
+.color-yellow{
+    text-align: center;
+    color: yellow;
+}
+
+.color-blue{
+    text-align: center;
+    color: blue;
+}
+
+.color-red{
+    text-align: center;
+    color: red;
+}
+
+a{
+    color: red;
+}
+
+article{
+    background-color: rgb(0, 0, 0, 0.5);
+}

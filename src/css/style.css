@@ -1,16 +1,18 @@
 body {
-    background-color: rgb(78, 70, 60);
+    /* background-color: rgb(61, 76, 97); */
+    background-image: url(/public/img/OIP.jpeg);
+    
 }
 
 h1 {
     text-align: center;
-    color: brown;
+    color: rgb(49, 42, 42);
     text-transform: uppercase;
 }
 
 h2 {
     text-align: center;
-    color: rgb(249, 0, 0);
+    color: rgb(38, 107, 11);
     text-transform: uppercase;
 }
 
@@ -36,3 +38,8 @@ h2 {
 .trasformar-texto-en-mayuscula{
     text-transform: uppercase;
 }
+
+
+
+
+
