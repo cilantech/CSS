@@ -1,11 +1,38 @@
-h1{
-        text-align: center;
-        color: brown;
-        text-transform: uppercase;
+body {
+    background-color: rgb(78, 70, 60);
 }
 
-h2{
+h1 {
+    text-align: center;
+    color: brown;
+    text-transform: uppercase;
+}
+
+h2 {
     text-align: center;
     color: rgb(249, 0, 0);
+    text-transform: uppercase;
+}
+
+/* seleccion mediante etiqueta */
+/* p{
+    color: green;
+} */
+
+#parrafo1 {
+    color: yellow;
+    font-size: 30px;
+    
+}
+
+#parrafo2 {
+    color: aqua;
+
+}
+
+#parrafo3{
+    color: blueviolet;
+}
+.trasformar-texto-en-mayuscula{
     text-transform: uppercase;
 }
