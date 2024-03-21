@@ -1,0 +1,72 @@
+#parrafo-prueba{
+    background-color: rgb(131, 233, 118);
+    color: aliceblue;
+    border-style:double;
+    border-color: blueviolet;
+    border-width: 10px;
+
+}
+
+#parrafo-prueba2{
+    border: 15px solid rgb(0, 255, 234);
+    border-top-width: 50px;
+    border-right-width: 60px;
+    border-bottom-width: 80px;
+    border-left-width: 100px;
+}
+
+#parrafo-prueba3{
+    border: 15px solid rgb(208, 0, 255);
+   
+    border-width: 50px 60px 80px 100px ;
+}
+
+#parrafo-prueba4{
+    border: 15px solid rgb(255, 0, 102);
+   
+    border-width: 50px 60px  ;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
