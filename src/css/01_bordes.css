@@ -1,13 +1,20 @@
-#parrafo-prueba{
+#m {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#parrafo-prueba {
     background-color: rgb(131, 233, 118);
     color: aliceblue;
-    border-style:double;
+    border-style: double;
     border-color: blueviolet;
     border-width: 10px;
 
 }
 
-#parrafo-prueba2{
+#parrafo-prueba2 {
     border: 15px solid rgb(0, 255, 234);
     border-top-width: 50px;
     border-right-width: 60px;
@@ -15,17 +22,92 @@
     border-left-width: 100px;
 }
 
-#parrafo-prueba3{
+#parrafo-prueba3 {
     border: 15px solid rgb(208, 0, 255);
-   
-    border-width: 50px 60px 80px 100px ;
+
+    border-width: 50px 60px 80px 100px;
 }
 
-#parrafo-prueba4{
+#parrafo-prueba4 {
     border: 15px solid rgb(255, 0, 102);
-   
-    border-width: 50px 60px  ;
+
+    border-width: 50px 60px;
 }
+
+#borde1 {
+    border-style: double;
+    border-width: 15px 15px;
+    border-radius: 5px;
+    border-color: blueviolet;
+
+}
+
+#borde2 {
+    border-style: groove;
+    border-width: 15px 15px;
+    border-radius: 5px;
+    border-color: rgb(186, 226, 43);
+
+}
+
+#borde3 {
+    border-style: dashed;
+    border-width: 30px 40px 60px 80px;
+    border-radius: 5px;
+    border-color: rgb(214, 43, 226);
+
+}
+
+#borde4 {
+
+    border: 15px dotted rgb(255, 0, 102);
+    border-radius: 5px;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+
+
+/* La propiedad border-width */
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+
+
+
+
 
 p.dotted {
     border-style: dotted;
@@ -69,4 +151,32 @@ p.hidden {
 
 p.mix {
     border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+#parrafo-pruebacurvo {
+    border-style: dashed;
+    border-width: 5px 5px;
+    border-radius: 100%;
+    border-color: brown;
+
+
 }
